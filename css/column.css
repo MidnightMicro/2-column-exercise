@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    background: #ceceff;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 750px;
+        background: bisque;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 1000px;
+        background: red;
+        padding: 5px 10px;
+    }
+}
+
+ @media screen and (min-width: 1280px) {
+    .container{
+        width:1200px;
+        background: cyan;
+        padding: 5px 10px;
+    }
+}

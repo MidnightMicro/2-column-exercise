@@ -1,0 +1,21 @@
+.column {
+    width: 48%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background: #97ddff;
+    float: left;
+}
+
+.container .column:first-child {
+    margin-right: 4%;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        padding : 20px;
+    }
+    .container .column:nth-child(2) {
+        margin-top: 10px;
+    }
+}
